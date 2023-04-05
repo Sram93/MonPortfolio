@@ -1,58 +1,66 @@
 a {
     text-decoration: none!important;
 }
-.webmadewell {
-    background-color: white;
-  }
-  body {
-    margin: 0;
-  }
-  .sample-header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    background-image: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .sample-header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: MidnightBlue;
-    opacity: 0.3;
-  }
-  .sample-header-section {
-    position: relative;
-    padding: 15% 0 10%;
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-    font-family: "Montserrat", sans-serif;
-  }
-  h1 {
-    font-weight: 500;
-  }
-  h2 {
-    font-weight: 400;
-  }
-  .sample-section-wrap {
-    position: relative;
-    background-color: white;
-  }
-  .sample-section {
-    position: relative;
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40px;
-  }
-  
-  
+
+body{
+  margin-top:20px;
+  background-color:#eee;
+}
+.home-5-bg {
+  background: #1E90FF;
+  position: relative;
+  background-size: cover;
+  height: 50vh;
+  background-position: center center;
+}
+
+.section {
+  position: relative; 
+  height: 100vh;  
+}
+
+.home-5-content {
+z-index: 1;
+
+}
+
+.bg-overlay {
+  background-color: #000;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.home-center {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.home-desc-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.home-5-content {
+  z-index: 1;
+  position: relative;
+}
+
+.text-white-70 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.f-15 {
+  font-size: 15px;
+}
+
+.home-5-bg #particles-js {
+  z-index: 1!important;
+position: absolute;
+  width: 100%;
+  height: 100%;
+}
