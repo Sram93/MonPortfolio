@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -38,16 +38,20 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Mon Parcours</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Projets
+                    <div class="btn-group">
+                        <a class="btn " href="./Projets.html" 
+                        role="button" data-bs-toggle="" aria-expanded="false">
+                        Projets
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">École</a></li>
-                            <li><a class="dropdown-item" href="#">Entreprise</a></li>
-                        </ul>
-                    </li>
+                        
+                        <button  type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">École</a></li>
+                              <li><a class="dropdown-item" href="#">Entreprise</a></li>
+                          </ul>
+                </div>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Veille Technologique</a>
                     </li>
@@ -166,7 +170,7 @@
 
 
 
-    <!-- ----------------------------------CV progress bar-------------------------------------------- -->
+  
     <!-- <div class="section-title" style="padding-bottom: 100px;">
         <center>
             <h4>Mes compétences</h4>
@@ -208,20 +212,39 @@
         </div>
 
     </div> -->
-    <center><div class="content">
+        <!-- ----------------------------------CV PDF-------------------------------------------- -->
+        <div class="section-title">
+            <center>
+                <h4 >Mon Curricullum Vitae</h4>
+            </center>
+        </div>
+        <center><iframe src="../img/CVSharifAitMamar-compressé.pdf" title="Mon CV" allowfullscreen></iframe></center>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <a href="../img/CVSharifAitMamar-compressé.pdf" class="btn btn-primary" type="button" target="_blank">Consulter</a>
+            <a href="../img/CVSharifAitMamar-compressé.pdf" class="btn btn-primary" type="button" download="CV_AITMAMAR_Sharif.pdf">Télecharger</a>
+        </div>
+
+  <!-- ----------------------------------CV progress bar-------------------------------------------- -->
+  <div class="section-title" style="padding-top: 100px;">
+    <center>
+        <h4 >Mes compétences</h4>
+    </center>
+</div>  
+  <center>
+        <div class="content" >
         <div class="profile-skills">
             <div>
                 <input type="checkbox" id="sk1">
                 <label for="sk1"></label>
                 <ul class="skills skills1">
                     <li class="sk-cms"><span>CMS</span></li>
-                    <li class="sk-dtb"><span>DDBB</span></li>
+                    <li class="sk-dtb"><span>BDD</span></li>
                     <li class="sk-dis"><span>Design</span></li>
-                    <li class="sk-pro"><span>Programing</span></li>
-                    <li class="sk-ani"><span>Animation</span></li>
+                    <li class="sk-pro"><span>Programmation</span></li>
+                    <li class="sk-ani"><span>Systèmes</span></li>
                     <li class="more">
                         <input type="checkbox" id="more-con"><label for="more-con"></label>
-                        <div><span>PHOTO</span><span>API</span><span>MAPS</span><span>VIDEO</span><span>CHARTS</span><span>RWD</span></div>
+                        <div><span>Curieux</span><span>Motivé</span><span>Sociable</span><span>Ambitieux</span></div>
                     </li>
                 </ul>
             </div>
@@ -229,14 +252,14 @@
             <input type="checkbox" id="sk2">
             <label for="sk2"></label>
             <ul class="skills skills2">
-                <li class="sk-gim"><span>Gimp</span></li>
-                <li class="sk-ado"><span>Adobe&nbsp;CC</span></li>
-                <li class="sk-not"><span>Notepad++</span></li>
-                <li class="sk-tri"><span>Tridion</span></li>
+                <li class="sk-gim"><span>Figma</span></li>
+                <li class="sk-ado"><span>Win'Design</span></li>
+                <li class="sk-not"><span>Eclipse</span></li>
+                <li class="sk-tri"><span>VS Code</span></li>
                 <li class="sk-wor"><span>Wordpress</span></li>
                 <li class="more">
                     <input type="checkbox" id="more-pro"><label for="more-pro"></label>
-                    <div><span>JOOMLA</span><span>DRUPAL</span><span>JIRA</span><span>TRELLO</span><span>FILEZILLA</span><span>GIT</span></div>
+                    <div><span>DOCKER</span><span>MAMP</span><span>JIRA</span><span>TRELLO</span><span>FILEZILLA</span><span>GIT</span></div>
                 </li>
             </ul>
             </div>
@@ -244,14 +267,14 @@
             <input type="checkbox" id="sk3">
             <label for="sk3"></label>
             <ul class="skills skills3">
-                <li class="sk-css"><span>CSS</span></li>
-                <li class="sk-htm"><span>HTML</span></li>
-                <li class="sk-jav"><span>JS</span></li>
-                <li class="sk-php"><span>PHP</span></li>
-                <li class="sk-sql"><span>SQL</span></li>
+                <li class="sk-css"><span>JAVA</span></li>
+                <li class="sk-htm"><span>C++</span></li>
+                <li class="sk-jav"><span>SQL</span></li>
+                <li class="sk-php"><span>HTML/CSS</span></li>
+                <li class="sk-sql"><span>UNIX</span></li>
                 <li class="more">
                     <input type="checkbox" id="more-len"><label for="more-len"></label>
-                    <div><span>XHTML</span><span>XSL</span><span>XML</span><span>JSON</span><span>PUG</span><span>SASS</span></div>
+                    <div><span>JS</span><span>XML</span><span>JSON</span><span>SSH</span><span>FTP</span></div>
                 </li>
             </ul>
             </div>
@@ -259,17 +282,7 @@
     </div>
 </center>
 
-    <!-- ----------------------------------CV PDF-------------------------------------------- -->
-    <div class="section-title" style="padding-top: 100px;">
-        <center>
-            <h4 >Mon Curricullum Vitae</h4>
-        </center>
-    </div>
-    <center><iframe src="../img/CVSharifAitMamar-compressé.pdf" title="Mon CV" allowfullscreen></iframe></center>
-    <div class="d-grid gap-2 col-6 mx-auto">
-        <a href="../img/CVSharifAitMamar-compressé.pdf" class="btn btn-primary" type="button" target="_blank">Consulter</a>
-        <a href="../img/CVSharifAitMamar-compressé.pdf" class="btn btn-primary" type="button" download="CV_AITMAMAR_Sharif.pdf">Télecharger</a>
-    </div>
+
 
 
 </body>

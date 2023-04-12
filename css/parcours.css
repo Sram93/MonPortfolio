@@ -1,22 +1,18 @@
 
 
 .before-header {
-	height: 80vh;
+	height: 60vh;
 	overflow: scroll;
 	padding-top: 68px;
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.header {
-	
+.header {	
 	width: 100vw;
 }
 
-.pb-100
-{
-	padding-bottom: 200px;
-}
+
 .navbar {
   background: #fff;
   padding: 0;
@@ -24,13 +20,11 @@
   position: fixed!important;
   z-index: 1;
   width: 100vw;
-  height: auto;
+  height: 68px;
 }
 
 
-.section-title {
-  margin-bottom: 60px;
-}
+
 .section-title p {
 	color: #777;
 	font-size: 16px;
@@ -39,8 +33,9 @@
 	text-transform: capitalize;
 	font-size: 40px;
 	position: relative;
-	padding-bottom: 20px;
-	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
 	font-weight: 600;
 }
 .section-title h4:before {
@@ -197,14 +192,7 @@ ul.timeline-list li:before {
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
-:root {
-	--c1: #2187e7;
-	--b2: #222;
-	--b3: #333;
-	--w1: #fff;
-	--w2: #eee;
-	--t1: all 0.5s ease 0s;
-}
+
 
 .content {
 	margin: 0;
@@ -216,14 +204,19 @@ ul.timeline-list li:before {
 	justify-content: center;
 	font-family: "Roboto", sans-serif;
 	font-size: 15px;
-}
-
-* {
+	--c1: #2187e7;
+	--b2: #222;
+	--b3: #333;
+	--w1: #fff;
+	--w2: #eee;
+	--t1: all 0.5s ease 0s;
 	box-sizing: border-box;
 }
 
-*:before,
-*:after {
+
+
+.content:before,
+.content:after {
 	box-sizing: border-box;
 	content: "";
 }
@@ -232,6 +225,7 @@ ul.timeline-list li:before {
 	width: 80vw;
 	height: 80vh;
 	background: #fff0;
+	
 }
 
 .profile-skills {
@@ -265,7 +259,7 @@ ul.skills3 {
 }
 
 ul.skills:before {
-	content: "Skills";
+	content: "Skill";
 	text-transform: uppercase;
 	position: absolute;
 	top: -75px;
@@ -285,11 +279,11 @@ ul.skills:before {
 }
 
 ul.skills2:before {
-	content: "Tools";
+	content: "Outil";
 }
 
 ul.skills3:before {
-	content: "Codes";
+	content: "Langue";
 }
 
 ul.skills:after {
@@ -499,23 +493,23 @@ ul.skills3 li:hover span:after {
 
 ul.skills li.sk-ani { --per: 85; }
 ul.skills li.sk-cms { --per: 75; }
-ul.skills li.sk-dis { --per: 90; }
-ul.skills li.sk-dtb { --per: 65; }
-ul.skills li.sk-pro { --per: 60; }
+ul.skills li.sk-dis { --per: 75; }
+ul.skills li.sk-dtb { --per: 95; }
+ul.skills li.sk-pro { --per: 90; }
 ul.skills li.sk-res { --per: 90; }
 
-ul.skills li.sk-gim { --per: 90; }
-ul.skills li.sk-ado { --per: 60; }
+ul.skills li.sk-gim { --per: 70; }
+ul.skills li.sk-ado { --per: 85; }
 ul.skills li.sk-not { --per: 85; }
-ul.skills li.sk-tri { --per: 70; }
-ul.skills li.sk-wor { --per: 90; }
+ul.skills li.sk-tri { --per: 85; }
+ul.skills li.sk-wor { --per: 65; }
 ul.skills li.sk-tre { --per: 65; }
 
 ul.skills li.sk-css { --per: 95; }
-ul.skills li.sk-htm { --per: 90; }
-ul.skills li.sk-jav { --per: 70; }
-ul.skills li.sk-php { --per: 80; }
-ul.skills li.sk-sql { --per: 65; }
+ul.skills li.sk-htm { --per: 70; }
+ul.skills li.sk-jav { --per: 95; }
+ul.skills li.sk-php { --per: 75; }
+ul.skills li.sk-sql { --per: 75; }
 ul.skills li.sk-pug { --per: 40; }
 
 /*********************/
@@ -777,7 +771,7 @@ ul.skills li.more input:checked + label:hover {
 
 iframe {
 	border: 1px solid black;    
-	width: 50vw;
-	height: 50vh;
+	width: 65vw;
+	height: 91vh;
 }
   
