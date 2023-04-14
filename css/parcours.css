@@ -774,4 +774,8 @@ iframe {
 	width: 65vw;
 	height: 91vh;
 }
+
+.bg {
+	z-index: -1;
+}
   
