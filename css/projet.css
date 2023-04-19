@@ -82,7 +82,7 @@ p {
   --flow-space: 0.9375rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-self: flex-end;
   height: 55%;
   padding: 12% 1.25rem 1.875rem;
@@ -147,7 +147,7 @@ p {
     transition-delay: 500ms;
     transform-origin: right;
   }
-
+ 
   .card__background {
     transition: transform 500ms ease-in;
   }
